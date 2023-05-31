@@ -1,0 +1,103 @@
+.content1 {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-image: url('flight2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .navigation-bar {
+    background-color: #344a90;
+    color: white;
+    overflow: hidden;
+    height: 60px;
+  }
+  
+  .navigation-bar a {
+    float: left;
+    font: size 60px;;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navigation-bar a.right {
+    float: right;
+  }
+
+  .input-box {
+    position: absolute;
+    top: 80px;
+    left: 590px;
+    width: 310px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    padding: 10px;
+  }
+
+  .display_flights {
+    position: relative;
+    top: 250px;
+    left: 90px;
+    width: 1350px;
+    min-height: 200px; 
+    max-height: 650px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    overflow-y: auto; 
+  }
+
+  .input-details {
+    margin-left: 20px;
+    width: 200px;
+    margin-left: 20px;
+    }
+    
+    .input-details label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    }
+    
+    .input-details input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    }
+    h1 {
+
+        padding-top: 15px;
+        text-align: center;
+        
+        }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: rgba(52, 74, 144, 0.5); 
+      }
+      
+      table th, table td {
+        padding: 10px;
+        text-align: left;
+      }
+      
+      table th {
+        background-color: rgba(52, 74, 144, 0.5); 
+        color: white;
+      }
+      
+      table tr:nth-child(even) {
+        background-color: rgba(242, 242, 242, 0.5);
+      }
+      
+      table tr:hover {
+        background-color: rgba(221, 221, 221, 0.5); 
+      }
+      

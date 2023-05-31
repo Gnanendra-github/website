@@ -1,0 +1,104 @@
+
+
+.content3 {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-image: url('flight2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  
+  .navbar {
+    background-color: #344a90;
+    color: white;
+    overflow: hidden;
+    height: 60px;
+  }
+  
+  .navbar a {
+    float: left;
+    font: size 60px;;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a.right {
+    float: right;
+  }
+  
+  .login {
+    position: absolute;
+    top: 180px;
+    right: 130px; 
+    width: 360px;
+    height: 340px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+  }
+  
+  .input-details {
+  width: 300px;
+  margin-left: 20px;
+  }
+  
+  f.input-details label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+  }
+  
+  .input-details input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+  }
+  input[type="button"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #49c1a2;
+  color: white;
+  font-size: 18px;
+  }
+  p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+  }
+  .para-2 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: -10px;
+  }
+  .para-2 a {
+  color: #49c1a2;
+  }
+  
+  h1 {
+  text-align: center;
+  padding-top: 15px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .login {
+      position: static;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+      width: auto;
+    }
+  }
+  
+  
+  
+  
